@@ -87,6 +87,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+img {
+ max-width: 100%;
+}
+
 .hero p {
   font-size: 24px;
   font-style: italic;
@@ -102,6 +106,7 @@ h3 {
 
 .vitejte {
   display: flex;
+  justify-content: space-between;
 }
 
 .levy,
@@ -136,7 +141,7 @@ h3 {
 
 .dnesni-nabidka {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .produkt1,
@@ -148,14 +153,19 @@ h3 {
   background-color: white;
   box-shadow: 1px 1px 3px rgb(143, 143, 143);
   text-align: center;
-  margin: 30px 30px 0 0 ;
+  margin: 30px 0 0 0 ;
+}
+
+.produkt1,
+.produkt2,
+.produkt3 {
+  margin-right: 30px;
 }
 
 .nabidka img {
 
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 .popis1,
@@ -178,7 +188,7 @@ h3 {
 
 .peceni {
   display: flex;
-  
+  justify-content: space-between;
 }
 
 .right {
